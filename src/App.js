@@ -6,7 +6,7 @@ import ProductData from './Data.json'
 function App() {
   return (
     <div className="App">
-      <SearchBar placehoder="Enter a product name..." data={ProductData} />
+      <SearchBar data={ProductData} />
     </div>
   );
 }
